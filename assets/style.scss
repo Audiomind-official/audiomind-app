@@ -1,0 +1,264 @@
+@font-face {
+  font-family: 'Cera Pro';
+  src: url('CeraPro-Light.woff2') format('woff2'),
+      url('CeraPro-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Cera Pro';
+  src: url('CeraPro-Medium.woff2') format('woff2'),
+      url('CeraPro-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Cera Pro';
+  src: url('CeraPro-BlackItalic.woff2') format('woff2'),
+      url('CeraPro-BlackItalic.woff') format('woff');
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Cera Pro';
+  src: url('CeraPro-Black.woff2') format('woff2'),
+      url('CeraPro-Black.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Cera Pro';
+  src: url('CeraPro-Italic.woff2') format('woff2'),
+      url('CeraPro-Italic.woff') format('woff');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Cera Pro';
+  src: url('CeraPro-Bold.woff2') format('woff2'),
+      url('CeraPro-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+$body-font-family: 'Cera Pro', Arial, Helvetica, sans-serif;
+
+$color-light-01: #F7F6F9;
+$color-light-02: #F1F0F5;
+$color-light-03: #E3E1E8;
+$color-light-04: #D0CED6;
+$color-dark-01: #A39FAB;
+$color-dark-02: #7A7682;
+$color-dark-03: #524D5C;
+$color-dark-04: #221B2F;
+
+$color-orange-2: #B22D00;
+$color-pink-2: #9F0C44;
+$color-purple-2: #781A77;
+$color-blue-2: #042973;
+$color-green-2: #447304;
+$color-red-2: #B22323;
+$color-yellow-2: #EBA70C;
+
+body * {
+  font-family: 'Cera Pro', Arial, Helvetica, sans-serif!important;
+}
+
+main header {
+  background: white;
+  padding: 2rem 0;
+}
+
+.v-toolbar {
+  background: $color-dark-04;
+  color: white;
+  box-shadow: none!important;
+  border-radius: 0 0 .5rem .5rem;
+}
+
+.v-navigation-drawer {
+  height: auto!important;
+}
+
+.v-navigation-drawer__content {
+  background: $color-light-02;
+  min-height: 100vh;
+}
+
+.v-navigation-drawer__border {
+  display: none;
+}
+
+.v-toolbar__content {
+  background: $color-dark-04;
+}
+
+.v-tab {
+  letter-spacing: 0!important;
+  text-transform: none!important;
+}
+
+.v-tabs-slider-wrapper {
+  height: 4px!important;
+}
+
+.v-card__title {
+  word-break: unset!important;
+}
+
+.v-tabs-slider {
+  background: linear-gradient(270deg, #ED4B14 0%, #ED4B14 8%, #9F0C44 27%, #761B7A 48%, #47227D 65%, #002A72 100%);
+}
+
+.v-btn.primary {
+  background: linear-gradient(270deg,   #272578,  #4E217C,  #881462,  #B41D36);
+}
+
+.v-btn {
+  box-shadow: none!important;
+}
+
+
+body .v-application .elevation-24 {
+  box-shadow: 0px 11px 15px -7px rgba(0, 0, 0, 0.05) !important !important;
+}
+
+body .v-application .elevation-23 {
+  box-shadow: 0px 11px 14px -7px rgba(0, 0, 0, 0.05) !important !important;
+}
+
+body .v-application .elevation-22 {
+  box-shadow: 0px 10px 14px -6px rgba(0, 0, 0, 0.05) !important !important;
+}
+
+body .v-application .elevation-21 {
+  box-shadow: 0px 10px 13px -6px rgba(0, 0, 0, 0.05) !important !important;
+}
+
+body .v-application .elevation-20 {
+  box-shadow: 0px 10px 13px -6px rgba(0, 0, 0, 0.05) !important !important;
+}
+
+body .v-application .elevation-19 {
+  box-shadow: 0px 9px 12px -6px rgba(0, 0, 0, 0.05) !important !important;
+}
+
+body .v-application .elevation-18 {
+  box-shadow: 0px 9px 11px -5px rgba(0, 0, 0, 0.05) !important !important;
+}
+
+body .v-application .elevation-17 {
+  box-shadow: 0px 8px 11px -5px rgba(0, 0, 0, 0.05) !important !important;
+}
+
+body .v-application .elevation-16 {
+  box-shadow: 0px 8px 10px -5px rgba(0, 0, 0, 0.05) !important !important;
+}
+
+body .v-application .elevation-15 {
+  box-shadow: 0px 8px 9px -5px rgba(0, 0, 0, 0.05) !important !important;
+}
+
+body .v-application .elevation-14 {
+  box-shadow: 0px 7px 9px -4px rgba(0, 0, 0, 0.05) !important !important;
+}
+
+body .v-application .elevation-13 {
+  box-shadow: 0px 7px 8px -4px rgba(0, 0, 0, 0.05) !important !important;
+}
+
+body .v-application .elevation-12 {
+  box-shadow: 0px 7px 8px -4px rgba(0, 0, 0, 0.05) !important !important;
+}
+
+body .v-application .elevation-11 {
+  box-shadow: 0px 6px 7px -4px rgba(0, 0, 0, 0.05) !important !important;
+}
+
+body .v-application .elevation-10 {
+  box-shadow: 0px 6px 6px -3px rgba(0, 0, 0, 0.05) !important !important;
+}
+
+body .v-application .elevation-9 {
+  box-shadow: 0px 5px 6px -3px rgba(0, 0, 0, 0.05) !important !important;
+}
+
+body .v-application .elevation-8 {
+  box-shadow: 0px 5px 5px -3px rgba(0, 0, 0, 0.05) !important !important;
+}
+
+body .v-application .elevation-7 {
+  box-shadow: 0px 4px 5px -2px rgba(0, 0, 0, 0.05) !important !important;
+}
+
+body .v-application .elevation-6 {
+  box-shadow: 0px 3px 5px -1px rgba(0, 0, 0, 0.05) !important !important;
+}
+
+body .v-application .elevation-5 {
+  box-shadow: 0px 3px 5px -1px rgba(0, 0, 0, 0.05) !important !important;
+}
+
+body .v-application .elevation-4 {
+  box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.05) !important !important;
+}
+
+body .v-application .elevation-3 {
+  box-shadow: 0px 3px 3px -2px rgba(0, 0, 0, 0.05) !important !important;
+}
+
+body .v-application .elevation-2 {
+  box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.05) !important !important;
+}
+
+body .v-application .elevation-1 {
+  box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.05) !important !important;
+}
+
+body .v-application .elevation-0 {
+  box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.05) !important !important;
+}
+
+
+.property-child {
+  padding: 1rem;
+}
+
+.headline {
+  word-break: keep-all!important;
+}
+
+pre {
+  overflow: auto;
+  font-family: monospace!important;
+  padding: 1rem;
+  font-size: 0.75rem;
+  background: $color-dark-04;
+  color: $color-light-01;
+  border-radius: 0.25rem;
+}
+
+
+.theme--light.v-chip:not(.v-chip--active) {
+  background-color: $color-light-02;
+}
+
+.v-application a {
+  color: $color-blue-2;
+  text-decoration: none;
+}
+
+.v-application .headline {
+  font-family: $body-font-family!important;
+}
